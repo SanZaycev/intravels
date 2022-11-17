@@ -1,0 +1,17 @@
+{
+  "fonts":[
+    "/fonts/all.css"
+  ],
+  "head":[
+    "/css/critical.css",
+    "/css/app.css"
+  ],
+  "foot":[
+    "/css/worky.css"
+  ],
+  "js":[
+    "/js/app.js",
+    "/js/chunk-vendors.js",
+    "/js/main.js"
+  ]
+}

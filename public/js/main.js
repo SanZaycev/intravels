@@ -1,0 +1,1 @@
+(function(a){function g(b){c||(c=setTimeout(function(){c=null;d(b)},100))}function d(b){a.parent.postMessage({event:"heightChanged",height:a.document.body.scrollHeight},"*")}function e(b,a,c){b.addEventListener?b.addEventListener(a,c,!1):b.attachEvent("on"+a,c)}var c;try{var f=a.self!==a.top}catch(b){f=!0}f&&(e(window,"load",d),e(window,"resize",g))})(window);
